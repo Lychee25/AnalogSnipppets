@@ -1,0 +1,59 @@
+.image{
+    width: 50%;
+    height: 200px;
+    margin-bottom: 10px;
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.dropimg{
+    width: 160px;
+    height: 50px;
+}
+ 
+
+h1{
+   padding-top: 20px;
+   margin: 20px 40px;
+   position: relative;
+   z-index: 1;
+   text-align: center;
+}
+
+.logo{
+    background-image: url("graph.png");
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#shadow{
+    box-shadow: 2px 2px 5px black;
+    padding: 3px;
+    float: left;
+    width: 47%;
+    margin-bottom: 10px;
+    position: static;
+    z-index: 2;
+}
+
+p::first-letter{
+  color: rgb(246, 183, 102);
+  font-size: x-large;
+}
+
+#recent{
+  overflow: scroll;
+  height: 500px;
+  width: auto;
+}
+
+h5{
+    color: rgb(168, 166, 166)
+}
+
+
+
